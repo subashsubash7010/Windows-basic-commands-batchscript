@@ -24,14 +24,21 @@ Execute the necessary commands/batch file for the desired output.
 ## Exercise 1: Basic Directory and File Operations
 Create a directory named "my-folder"
 
+<img width="838" height="42" alt="image" src="https://github.com/user-attachments/assets/bce8711a-54eb-4e15-b5a4-5ea961138116" />
+
+
 ## COMMAND AND OUTPUT
 
 Remove the directory "my-folder"
 
+<img width="927" height="48" alt="image" src="https://github.com/user-attachments/assets/292b635b-a2de-4abc-a200-21b2503d278c" />
+
 ## COMMAND AND OUTPUT
 
-
 Create the file Rose.txt
+
+<img width="905" height="53" alt="image" src="https://github.com/user-attachments/assets/07d46785-ca60-493a-9111-7d67c67d61e0" />
+
 
 ## COMMAND AND OUTPUT
 

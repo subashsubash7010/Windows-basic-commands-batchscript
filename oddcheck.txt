@@ -1,0 +1,18 @@
+@echo off
+:start
+set /p num=Enter a number:
+set /a rem=%num% %% 2
+if %rem%==1 (
+    echo %num% is odd.
+) else (
+    echo %num% is not odd.
+)
+set /p choice=Check another number (Y/N)? 
+if /i "%choice%"=="Y" goto start
+if /i "%choice%"=="N" (
+    echo Thank you!
+    pause
+    exit
+)
+echo Invalid input.
+goto start

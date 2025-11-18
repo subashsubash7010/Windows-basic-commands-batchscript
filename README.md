@@ -77,7 +77,7 @@ Remove the file hello1.txt
 del hello1.txt
 ```
 
-<img width="880" height="49" alt="image" src="https://github.com/user-attachments/assets/7f5bdbbc-0dc3-4625-99e5-6eb9ae79c931" />
+![Uploading image.png…]()
 
 
 ## COMMAND AND OUTPUT

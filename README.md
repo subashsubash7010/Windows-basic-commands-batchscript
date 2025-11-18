@@ -23,40 +23,59 @@ Execute the necessary commands/batch file for the desired output.
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
 Create a directory named "my-folder"
+```
+mkdir my-folder
+```
 
-<img width="838" height="42" alt="image" src="https://github.com/user-attachments/assets/bce8711a-54eb-4e15-b5a4-5ea961138116" />
+<img width="1179" height="344" alt="Screenshot 2025-11-18 173304" src="https://github.com/user-attachments/assets/86172c53-a041-421b-90c6-4305b6bc7254" />
+
 
 
 ## COMMAND AND OUTPUT
 
 Remove the directory "my-folder"
+```
+rmdir my-folder
+```
 
-<img width="927" height="48" alt="image" src="https://github.com/user-attachments/assets/292b635b-a2de-4abc-a200-21b2503d278c" />
+<img width="783" height="340" alt="image" src="https://github.com/user-attachments/assets/018e4cbc-ae4f-4b5a-93c1-6dc57ab29462" />
 
 ## COMMAND AND OUTPUT
 
 Create the file Rose.txt
-
-<img width="905" height="53" alt="image" src="https://github.com/user-attachments/assets/07d46785-ca60-493a-9111-7d67c67d61e0" />
+```
+COPY CON Rose.txt
+dir Rose.txt
+```
+<img width="756" height="513" alt="image" src="https://github.com/user-attachments/assets/65fa2d10-014a-4bcd-a191-24474c6e385f" />
 
 
 ## COMMAND AND OUTPUT
 
 Create the file hello.txt using echo and redirection
+```
+echo “hello world” > hello.txt
+type hello.txt
+```
 
-<img width="1018" height="57" alt="image" src="https://github.com/user-attachments/assets/b7d183c9-4023-49ab-8e89-1b24938c1ea9" />
+<img width="876" height="148" alt="image" src="https://github.com/user-attachments/assets/92eaa948-0e84-4499-ad6a-5dc2ea998df9" />
 
 
 ## COMMAND AND OUTPUT
 
 Copy the file hello.txt into the file hello1.txt
-
-<img width="1150" height="80" alt="image" src="https://github.com/user-attachments/assets/ef3921d5-067f-4b1b-8f06-e1d167c36ca4" />
+```
+copy hello.txt hello1.txt
+```
+<img width="860" height="173" alt="image" src="https://github.com/user-attachments/assets/758172f2-fe78-402f-9460-a514fb34bddb" />
 
 
 ## COMMAND AND OUTPUT
 
 Remove the file hello1.txt
+```
+del hello1.txt
+```
 
 <img width="880" height="49" alt="image" src="https://github.com/user-attachments/assets/7f5bdbbc-0dc3-4625-99e5-6eb9ae79c931" />
 
@@ -64,6 +83,9 @@ Remove the file hello1.txt
 ## COMMAND AND OUTPUT
 
 List out the file hello1.txt in the current directory
+```
+dir hello1.txt
+```
 
 <img width="1026" height="240" alt="image" src="https://github.com/user-attachments/assets/d4dda1d8-67ef-428a-8f93-acf3bd8550da" />
 
@@ -71,6 +93,9 @@ List out the file hello1.txt in the current directory
 ## COMMAND AND OUTPUT
 
 List out all the associated file extensions 
+```
+assoc | more
+```
 
 <img width="888" height="948" alt="image" src="https://github.com/user-attachments/assets/a1546eea-eb2b-4ad2-a402-a06d306114a2" />
 <img width="1031" height="925" alt="image" src="https://github.com/user-attachments/assets/8035e0e4-6154-4e0a-8563-dfd49a69c506" />
@@ -80,6 +105,9 @@ List out all the associated file extensions
 ## COMMAND AND OUTPUT
 
 Compare the file hello.txt and rose.txt
+```
+fc hello.txt Rose.txt
+```
 
 <img width="1164" height="170" alt="image" src="https://github.com/user-attachments/assets/323b4b74-bb4f-4676-b1a3-40a1379e6b81" />
 
